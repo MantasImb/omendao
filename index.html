@@ -21,6 +21,10 @@
 	<meta property="article:modified_time" content="2024-11-10T07:01:29+00:00" />
 	<meta name="twitter:title" content="OmenDAO" />
 	<meta name="twitter:description" content="A new standard of treasury-backed DeFi on Ethereum." />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 
 	<script>
 		window._wpemojiSettings = {"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/", "svgExt": ".svg", "source": {"concatemoji": "/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7"}};
@@ -466,7 +470,16 @@
 
 <body
 	class="home page-template page-template-elementor_header_footer page page-id-179 elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-179">
-
+	<section></section>
+	<svg>
+		<filter id="noise">
+			<feTurbulence id="turbulence">
+				<animate attributeName="baseFrequency" dur="50s" values="0.9 0.9;0.8 0.8; 0.9 0.9"
+					repeatCount="indefinite"></animate>
+			</feTurbulence>
+			<feDisplacementMap in="SourceGraphic" scale="60"></feDisplacementMap>
+		</filter>
+	</svg>
 
 	<a class="skip-link screen-reader-text" href="index.html#content">Skip to content</a>
 
@@ -495,7 +508,7 @@
 					data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 					<div class="elementor-element elementor-element-5c3e1ef elementor-widget elementor-widget-heading"
 						data-id="5c3e1ef" data-element_type="widget" data-widget_type="heading.default">
-						<div class="elementor-widget-container">
+						<div class="elementor-widget-container rounded">
 							<p class="elementor-heading-title elementor-size-default"><img src="/logo.png" alt="OmenDAO"
 									width="40" height="40"></p>
 						</div>
